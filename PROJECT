@@ -1,0 +1,24 @@
+domain: esdevops.com
+layout:
+- go.kubebuilder.io/v3
+projectName: school-controller-example
+repo: github.com/TangSmith31/school-controller-example
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: esdevops.com
+  group: esdevops.com
+  kind: Student
+  path: github.com/TangSmith31/school-controller-example/api/v1
+  version: v1
+- api:
+    crdVersion: v1
+    namespaced: true
+  domain: esdevops.com
+  group: esdevops.com
+  kind: School
+  path: github.com/TangSmith31/school-controller-example/api/v1
+  version: v1
+version: "3"

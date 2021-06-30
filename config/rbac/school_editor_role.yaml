@@ -1,0 +1,24 @@
+# permissions for end users to edit schools.
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: school-editor-role
+rules:
+- apiGroups:
+  - esdevops.com
+  resources:
+  - schools
+  verbs:
+  - create
+  - delete
+  - get
+  - list
+  - patch
+  - update
+  - watch
+- apiGroups:
+  - esdevops.com
+  resources:
+  - schools/status
+  verbs:
+  - get

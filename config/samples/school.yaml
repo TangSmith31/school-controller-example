@@ -1,0 +1,7 @@
+apiVersion: esdevops.com/v1
+kind: School
+metadata:
+  name: beijing-university
+spec:
+  # Add fields here
+  student_number: 0

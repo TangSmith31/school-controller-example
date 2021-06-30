@@ -1,0 +1,7 @@
+apiVersion: esdevops.com/v1
+kind: Student
+metadata:
+  name: 469b7d49-c835-4559-8bb0-f3d2e6f65301
+spec:
+  # Add fields here
+  name: StudentA
